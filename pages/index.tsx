@@ -7,11 +7,7 @@ import WorkExperience from '@/components/WorkExperience';
 import Skills from '@/components/Skills';
 import Projects from '@/components/Projects';
 import ContactMe from '@/components/ContactMe';
-import Link from 'next/link'
-
-
-
-
+import Link from 'next/link';
 
 
 
@@ -24,18 +20,18 @@ const Home: NextPage = () =>{
         <title>Jeremy's</title>
        
       </Head>
-      
 
+       
       
-      <Header />
+       <Header/>
+      
+    
 
       <section id="hero" className="snap-start">{/*snaps it to the center*/}
         <Hero />
       </section>
 
-       {/*Hero*/}
-
-        {/*About*/}
+      
       <section id="about" className="snap-center">
         <About/>
       </section>
@@ -57,7 +53,7 @@ const Home: NextPage = () =>{
           <ContactMe/>
        </section>
 
-        <Link href="#hero">
+        {/*<Link href="#hero">
           <footer className=" sticky bottom-5 w-full cursor-pointer">
             <div className="flex items-center justify-center">
               <img className="h-10 w-10 rounded-full filter grayscale hover:grayscale-0 cursor-pointer" src="https://www.pngitem.com/pimgs/m/14-148764_transparent-baby-chicken-clipart-chick-png-png-download.png"/>
@@ -66,7 +62,7 @@ const Home: NextPage = () =>{
 
           </footer>
        
-        </Link>
+        </Link>*/}
 
        
 
