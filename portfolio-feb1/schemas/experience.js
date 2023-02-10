@@ -44,12 +44,7 @@ export default {
       name: "technologies",
       title:"Technologies",
       type:"array",
-    },
-    {
-      name: "socials",
-      title:"Socials",
-      type:"array",
-      of: [{type:"reference", to:{type:"skill"}}],
+      of:[{type:"reference", to:{ type:"skill" }}],
     },
     {
       name: "points",
